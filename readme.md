@@ -3,7 +3,7 @@
 
 ## Finished Chapters:
 - [x] [Chapter1](https://craftinginterpreters.com/chunks-of-bytecode.html)
-- [ ] [Chapter2](https://craftinginterpreters.com/a-virtual-machine.html)
+- [x] [Chapter2](https://craftinginterpreters.com/a-virtual-machine.html)
 - [ ] [Chapter3](https://craftinginterpreters.com/scanning-on-demand.html)
 - [ ] [Chapter4](https://craftinginterpreters.com/compiling-expressions.html)
 - [ ] [Chapter5](https://craftinginterpreters.com/types-of-values.html)
@@ -27,3 +27,7 @@
   - [ ] Challenge 2: Better `OP_CONSTANT`.
   - [ ] Challenge 3: Implement costum reallocation.
 - [ ] Chapter 2
+  - [ ] Challenge 1: Bytecode instruction.
+  - [ ] Challenge 2: Bytecode instruction.
+  - [ ] Challenge 3: Dynamic growing the stack.
+  - [ ] Challenge 4: Make `OP_NEGATE` faster

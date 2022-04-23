@@ -10,12 +10,13 @@ tcc -c chunk.c -Wall
 tcc -c debug.c -Wall
 tcc -c memory.c -Wall
 tcc -c value.c -Wall
+tcc -c vm.c -Wall
 echo "> Finished making the object files"
 
 # To make the executable
 echo "> Making the executable"
 # The main file compiled like : compiler -o executablename name objectfiles -Wall
-tcc -o clox.exe main.c chunk.o debug.o memory.o value.o -Wall
+tcc -o clox.exe main.c chunk.o debug.o memory.o value.o vm.o -Wall
 echo "> Finished making the exectable"
 
 # delete the object files
@@ -25,5 +26,6 @@ rm chunk.o
 rm debug.o
 rm memory.o
 rm value.o
+rm vm.o
 echo "> Finished deleting the objective files"
 
