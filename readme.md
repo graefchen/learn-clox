@@ -4,7 +4,7 @@
 ## Finished Chapters:
 - [x] [Chapter1](https://craftinginterpreters.com/chunks-of-bytecode.html)
 - [x] [Chapter2](https://craftinginterpreters.com/a-virtual-machine.html)
-- [ ] [Chapter3](https://craftinginterpreters.com/scanning-on-demand.html)
+- [x] [Chapter3](https://craftinginterpreters.com/scanning-on-demand.html)
 - [ ] [Chapter4](https://craftinginterpreters.com/compiling-expressions.html)
 - [ ] [Chapter5](https://craftinginterpreters.com/types-of-values.html)
 - [ ] [Chapter6](https://craftinginterpreters.com/strings.html)
@@ -31,3 +31,21 @@
   - [ ] Challenge 2: Bytecode instruction.
   - [ ] Challenge 3: Dynamic growing the stack.
   - [ ] Challenge 4: Make `OP_NEGATE` faster
+- [ ] Chapter 3
+  - [ ] Challenge 1: String interpolation.
+  - [ ] Challenge 2: Angle Brackets.
+  - [ ] Challenge 3: Contextual Keywords.
+- [ ] Chapter 4
+- [ ] Chapter 5
+- [ ] Chapter 6
+- [ ] Chapter 7
+- [ ] Chapter 8
+- [ ] Chapter 9
+- [ ] Chapter 10
+- [ ] Chapter 11
+- [ ] Chapter 12
+- [ ] Chapter 13
+- [ ] Chapter 14
+- [ ] Chapter 15
+- [ ] Chapter 16
+- [ ] Chapter 17

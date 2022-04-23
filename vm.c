@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #include "common.h"
+#include "compiler.h"
 #include "debug.h"
 #include "vm.h"
 
@@ -38,15 +39,15 @@ static InterpretResult run() {
     } while (false)
 
     for (;;) {
-    #ifndef DEBUG_TRACE_EXECUTION
-        printf("          "):
+    #ifdef DEBUG_TRACE_EXECUTION
+        printf("          ");
         for (Value* slot = vm.stack; slot < vm.stackTop; slot++) {
             printf("[ ");
             printValue(*slot);
-            print(" ]");
+            printf(" ]");
         }
-        print("\n");
-        disassembleInstruction(vm.chunk, (int)(vm.ip - vh.chunk->code));
+        printf("\n");
+        disassembleInstruction(vm.chunk, (int)(vm.ip - vm.chunk->code));
     #endif
         uint8_t instruction;
         switch (instruction = READ_BYTE()) {
@@ -72,8 +73,7 @@ static InterpretResult run() {
 #undef BINARY_OP
 }
 
-InterpretResult interpret(Chunk *chunk) {
-    vm.chunk = chunk;
-    vm.ip = vm.chunk->code;
-    return run();
+InterpretResult interpret(const char *source) {
+    compile(source);
+    return INTERPRET_OK;
 }
