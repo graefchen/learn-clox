@@ -2,7 +2,7 @@
 
 
 ## Finished Chapters:
-- [ ] [Chapter1](https://craftinginterpreters.com/chunks-of-bytecode.html)
+- [x] [Chapter1](https://craftinginterpreters.com/chunks-of-bytecode.html)
 - [ ] [Chapter2](https://craftinginterpreters.com/a-virtual-machine.html)
 - [ ] [Chapter3](https://craftinginterpreters.com/scanning-on-demand.html)
 - [ ] [Chapter4](https://craftinginterpreters.com/compiling-expressions.html)
@@ -22,3 +22,8 @@
 
 ## Finished Challenges:
 
+- [ ] Chapter 1
+  - [ ] Challenge 1: Better encoding.
+  - [ ] Challenge 2: Better `OP_CONSTANT`.
+  - [ ] Challenge 3: Implement costum reallocation.
+- [ ] Chapter 2
