@@ -5,7 +5,7 @@
 - [x] [Chapter1](https://craftinginterpreters.com/chunks-of-bytecode.html)
 - [x] [Chapter2](https://craftinginterpreters.com/a-virtual-machine.html)
 - [x] [Chapter3](https://craftinginterpreters.com/scanning-on-demand.html)
-- [ ] [Chapter4](https://craftinginterpreters.com/compiling-expressions.html)
+- [x] [Chapter4](https://craftinginterpreters.com/compiling-expressions.html)
 - [ ] [Chapter5](https://craftinginterpreters.com/types-of-values.html)
 - [ ] [Chapter6](https://craftinginterpreters.com/strings.html)
 - [ ] [Chapter7](https://craftinginterpreters.com/hash-tables.html)
@@ -30,12 +30,15 @@
   - [ ] Challenge 1: Bytecode instruction.
   - [ ] Challenge 2: Bytecode instruction.
   - [ ] Challenge 3: Dynamic growing the stack.
-  - [ ] Challenge 4: Make `OP_NEGATE` faster
+  - [ ] Challenge 4: Make `OP_NEGATE` faster.
 - [ ] Chapter 3
   - [ ] Challenge 1: String interpolation.
   - [ ] Challenge 2: Angle Brackets.
   - [ ] Challenge 3: Contextual Keywords.
 - [ ] Chapter 4
+  - [ ] Challenge 1: Trace Function call.
+  - [ ] Challenge 2: Other Prefix/Infix operator.
+  - [ ] Challenge 3: Support for `?:`.
 - [ ] Chapter 5
 - [ ] Chapter 6
 - [ ] Chapter 7
