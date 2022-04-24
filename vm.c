@@ -47,7 +47,8 @@ static InterpretResult run() {
             printf(" ]");
         }
         printf("\n");
-        disassembleInstruction(vm.chunk, (int)(vm.ip - vm.chunk->code));
+        // I forgot this down here in the first test. It looks better for some reason.
+        // disassembleInstruction(vm.chunk, (int)(vm.ip - vm.chunk->code));
     #endif
         uint8_t instruction;
         switch (instruction = READ_BYTE()) {

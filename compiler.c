@@ -59,7 +59,7 @@ static void errorAt(Token *token, const char *message) {
         fprintf(stderr, " at '%.*s'", token->length, token->start);
     }
 
-    fprintf(stderr, ": &s\n", message);
+    fprintf(stderr, ": %s\n", message);
     parser.hadError = true;
 }
 
