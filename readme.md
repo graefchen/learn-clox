@@ -7,7 +7,7 @@
 - [x] [Chapter3](https://craftinginterpreters.com/scanning-on-demand.html)
 - [x] [Chapter4](https://craftinginterpreters.com/compiling-expressions.html)
 - [x] [Chapter5](https://craftinginterpreters.com/types-of-values.html)
-- [ ] [Chapter6](https://craftinginterpreters.com/strings.html)
+- [x] [Chapter6](https://craftinginterpreters.com/strings.html)
 - [ ] [Chapter7](https://craftinginterpreters.com/hash-tables.html)
 - [ ] [Chapter8](https://craftinginterpreters.com/global-variables.html)
 - [ ] [Chapter9](https://craftinginterpreters.com/local-variables.html)
@@ -43,6 +43,9 @@
   - [ ] Challenge 1: Reduce Binary operators.
   - [ ] Challenge 2: Increase Speed with higher level instruction.
 - [ ] Chapter 6
+  - [ ] Challenge 1: Implement flexible Array members.
+  - [ ] Challenge 2: Add point back to the original source string.
+  - [ ] Challenge 3: What to do using `+` and a non String type.
 - [ ] Chapter 7
 - [ ] Chapter 8
 - [ ] Chapter 9
