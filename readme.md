@@ -6,7 +6,7 @@
 - [x] [Chapter2](https://craftinginterpreters.com/a-virtual-machine.html)
 - [x] [Chapter3](https://craftinginterpreters.com/scanning-on-demand.html)
 - [x] [Chapter4](https://craftinginterpreters.com/compiling-expressions.html)
-- [ ] [Chapter5](https://craftinginterpreters.com/types-of-values.html)
+- [x] [Chapter5](https://craftinginterpreters.com/types-of-values.html)
 - [ ] [Chapter6](https://craftinginterpreters.com/strings.html)
 - [ ] [Chapter7](https://craftinginterpreters.com/hash-tables.html)
 - [ ] [Chapter8](https://craftinginterpreters.com/global-variables.html)
@@ -40,6 +40,8 @@
   - [ ] Challenge 2: Other Prefix/Infix operator.
   - [ ] Challenge 3: Support for `?:`.
 - [ ] Chapter 5
+  - [ ] Challenge 1: Reduce Binary operators.
+  - [ ] Challenge 2: Increase Speed with higher level instruction.
 - [ ] Chapter 6
 - [ ] Chapter 7
 - [ ] Chapter 8
