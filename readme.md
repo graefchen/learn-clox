@@ -8,7 +8,7 @@
 - [x] [Chapter4](https://craftinginterpreters.com/compiling-expressions.html)
 - [x] [Chapter5](https://craftinginterpreters.com/types-of-values.html)
 - [x] [Chapter6](https://craftinginterpreters.com/strings.html)
-- [ ] [Chapter7](https://craftinginterpreters.com/hash-tables.html)
+- [x] [Chapter7](https://craftinginterpreters.com/hash-tables.html)
 - [ ] [Chapter8](https://craftinginterpreters.com/global-variables.html)
 - [ ] [Chapter9](https://craftinginterpreters.com/local-variables.html)
 - [ ] [Chapter10](https://craftinginterpreters.com/jumping-back-and-forth.html)
@@ -47,6 +47,9 @@
   - [ ] Challenge 2: Add point back to the original source string.
   - [ ] Challenge 3: What to do using `+` and a non String type.
 - [ ] Chapter 7
+  - [ ] Challenge 1: Use different Hash keys.
+  - [ ] Challenge 2: Look up hash implementation in open source systems.
+  - [ ] Challenge 3: Write Benchmarks for hash tables.
 - [ ] Chapter 8
 - [ ] Chapter 9
 - [ ] Chapter 10
