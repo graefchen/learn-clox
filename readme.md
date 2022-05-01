@@ -9,7 +9,7 @@
 - [x] [Chapter5](https://craftinginterpreters.com/types-of-values.html)
 - [x] [Chapter6](https://craftinginterpreters.com/strings.html)
 - [x] [Chapter7](https://craftinginterpreters.com/hash-tables.html)
-- [ ] [Chapter8](https://craftinginterpreters.com/global-variables.html)
+- [x] [Chapter8](https://craftinginterpreters.com/global-variables.html)
 - [ ] [Chapter9](https://craftinginterpreters.com/local-variables.html)
 - [ ] [Chapter10](https://craftinginterpreters.com/jumping-back-and-forth.html)
 - [ ] [Chapter11](https://craftinginterpreters.com/calls-and-functions.html)
@@ -51,6 +51,9 @@
   - [ ] Challenge 2: Look up hash implementation in open source systems.
   - [ ] Challenge 3: Write Benchmarks for hash tables.
 - [ ] Chapter 8
+  - [ ] Challenge 1: Optimize the global variable has table.
+  - [ ] Challenge 2: More efficient way to store and access global variables.
+  - [ ] Challenge 3: Report mistakes like the given mistake.
 - [ ] Chapter 9
 - [ ] Chapter 10
 - [ ] Chapter 11
