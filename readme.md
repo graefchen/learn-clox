@@ -10,7 +10,7 @@
 - [x] [Chapter6](https://craftinginterpreters.com/strings.html)
 - [x] [Chapter7](https://craftinginterpreters.com/hash-tables.html)
 - [x] [Chapter8](https://craftinginterpreters.com/global-variables.html)
-- [ ] [Chapter9](https://craftinginterpreters.com/local-variables.html)
+- [x] [Chapter9](https://craftinginterpreters.com/local-variables.html)
 - [ ] [Chapter10](https://craftinginterpreters.com/jumping-back-and-forth.html)
 - [ ] [Chapter11](https://craftinginterpreters.com/calls-and-functions.html)
 - [ ] [Chapter12](https://craftinginterpreters.com/closures.html)
@@ -55,6 +55,10 @@
   - [ ] Challenge 2: More efficient way to store and access global variables.
   - [ ] Challenge 3: Report mistakes like the given mistake.
 - [ ] Chapter 9
+  - [ ] Challenge 1: More efficient local variable.
+  - [ ] Challenge 2: What to do with the edge case `var a = a`.
+  - [ ] Challenge 3: Keyword for single and multiple assignment variables.
+  - [ ] Challenge 4: Extend clox to use more than 256 local variables.
 - [ ] Chapter 10
 - [ ] Chapter 11
 - [ ] Chapter 12
