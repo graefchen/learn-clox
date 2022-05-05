@@ -25,7 +25,7 @@ echo "> Finished making the exectable"
 
 # delete the object files
 echo "> Deleting the object files"
-# rm and the 
+# rm the made object files ( and more if you are using clang for example )
 rm chunk.o
 rm compiler.o
 rm debug.o
@@ -36,4 +36,3 @@ rm table.o
 rm value.o
 rm vm.o
 echo "> Finished deleting the objective files"
-
