@@ -11,7 +11,7 @@
 - [x] [Chapter7](https://craftinginterpreters.com/hash-tables.html)
 - [x] [Chapter8](https://craftinginterpreters.com/global-variables.html)
 - [x] [Chapter9](https://craftinginterpreters.com/local-variables.html)
-- [ ] [Chapter10](https://craftinginterpreters.com/jumping-back-and-forth.html)
+- [x] [Chapter10](https://craftinginterpreters.com/jumping-back-and-forth.html)
 - [ ] [Chapter11](https://craftinginterpreters.com/calls-and-functions.html)
 - [ ] [Chapter12](https://craftinginterpreters.com/closures.html)
 - [ ] [Chapter13](https://craftinginterpreters.com/garbage-collection.html)
@@ -60,6 +60,9 @@
   - [ ] Challenge 3: Keyword for single and multiple assignment variables.
   - [ ] Challenge 4: Extend clox to use more than 256 local variables.
 - [ ] Chapter 10
+  - [ ] Challenge 1: Add a multi-way `switch` statement.
+  - [ ] Challenge 2: Add a `continue` statement.
+  - [ ] Challenge 3: Invent a fun control flow feature.
 - [ ] Chapter 11
 - [ ] Chapter 12
 - [ ] Chapter 13
