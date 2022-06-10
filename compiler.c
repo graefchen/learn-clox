@@ -467,10 +467,6 @@ static void synchronize() {
 static void declaration() {
 	if (match(TOKEN_VAR)) {
 		varDeclaration();
-	} else if(match(TOKEN_LEFT_BRACE)) {
-		beginScope();
-		block();
-		endScope();
 	} else {
 		statement();
 	}
@@ -481,6 +477,10 @@ static void declaration() {
 static void statement() {
 	if (match(TOKEN_PRINT)) {
 		printStatement();
+	} else if (match(TOKEN_LEFT_BRACE)){
+		beginScope();
+		block();
+		endScope();
 	} else {
 		expressionStatement();
 	}
