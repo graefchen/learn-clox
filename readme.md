@@ -12,7 +12,7 @@
 - [x] [Chapter8](https://craftinginterpreters.com/global-variables.html)
 - [x] [Chapter9](https://craftinginterpreters.com/local-variables.html)
 - [x] [Chapter10](https://craftinginterpreters.com/jumping-back-and-forth.html)
-- [ ] [Chapter11](https://craftinginterpreters.com/calls-and-functions.html)
+- [x] [Chapter11](https://craftinginterpreters.com/calls-and-functions.html)
 - [ ] [Chapter12](https://craftinginterpreters.com/closures.html)
 - [ ] [Chapter13](https://craftinginterpreters.com/garbage-collection.html)
 - [ ] [Chapter14](https://craftinginterpreters.com/classes-and-instances.html)
@@ -64,6 +64,10 @@
   - [ ] Challenge 2: Add a `continue` statement.
   - [ ] Challenge 3: Invent a fun control flow feature.
 - [ ] Chapter 11
+  - [ ] Challenge 1: Make the `ip` more performance.
+  - [ ] Challenge 2: Add arity checking for the native function's.
+  - [ ] Challenge 3: Add runtime error for native function's.
+  - [ ] Challenge 4: Add more native function's.
 - [ ] Chapter 12
 - [ ] Chapter 13
 - [ ] Chapter 14
