@@ -13,7 +13,7 @@
 - [x] [Chapter9](https://craftinginterpreters.com/local-variables.html)
 - [x] [Chapter10](https://craftinginterpreters.com/jumping-back-and-forth.html)
 - [x] [Chapter11](https://craftinginterpreters.com/calls-and-functions.html)
-- [ ] [Chapter12](https://craftinginterpreters.com/closures.html)
+- [x] [Chapter12](https://craftinginterpreters.com/closures.html)
 - [ ] [Chapter13](https://craftinginterpreters.com/garbage-collection.html)
 - [ ] [Chapter14](https://craftinginterpreters.com/classes-and-instances.html)
 - [ ] [Chapter15](https://craftinginterpreters.com/methods-and-initializers.html)
@@ -69,6 +69,9 @@
   - [ ] Challenge 3: Add runtime error for native function's.
   - [ ] Challenge 4: Add more native function's.
 - [ ] Chapter 12
+  - [ ] Challenge 1: Only wrap functions that need upvalues.
+  - [ ] Challenge 2: Change hwo Lox should behave with the help of the design note.
+  - [ ] Challenge 3: Write a Lox Program which maps 2D Vectors Objects.
 - [ ] Chapter 13
 - [ ] Chapter 14
 - [ ] Chapter 15
