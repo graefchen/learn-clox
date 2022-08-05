@@ -14,7 +14,7 @@
 - [x] [Chapter10](https://craftinginterpreters.com/jumping-back-and-forth.html)
 - [x] [Chapter11](https://craftinginterpreters.com/calls-and-functions.html)
 - [x] [Chapter12](https://craftinginterpreters.com/closures.html)
-- [ ] [Chapter13](https://craftinginterpreters.com/garbage-collection.html)
+- [x] [Chapter13](https://craftinginterpreters.com/garbage-collection.html)
 - [ ] [Chapter14](https://craftinginterpreters.com/classes-and-instances.html)
 - [ ] [Chapter15](https://craftinginterpreters.com/methods-and-initializers.html)
 - [ ] [Chapter16](https://craftinginterpreters.com/superclasses.html)
@@ -73,6 +73,9 @@
   - [ ] Challenge 2: Change hwo Lox should behave with the help of the design note.
   - [ ] Challenge 3: Write a Lox Program which maps 2D Vectors Objects.
 - [ ] Chapter 13
+  - [ ] Challenge 1: Make the Obj header more compact.
+  - [ ] Challenge 2: Make a more efficient approach of the `sweep` phase that clears the `isMarked` field.
+  - [ ] Challenge 3: Replace the Mark-sweep algorith with another one. -> Like Chenys  algorithm or the Lisp 2 mark-compact algorithm.
 - [ ] Chapter 14
 - [ ] Chapter 15
 - [ ] Chapter 16
