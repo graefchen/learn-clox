@@ -77,6 +77,10 @@
   - [ ] Challenge 2: Make a more efficient approach of the `sweep` phase that clears the `isMarked` field.
   - [ ] Challenge 3: Replace the Mark-sweep algorith with another one. -> Like Chenys  algorithm or the Lisp 2 mark-compact algorithm.
 - [ ] Chapter 14
+  - [ ] Challenge 1: Implement a better solution for missing fields.
+  - [ ] Challenge 2: Devise a language feature that enables the user to use string value and use that as a name of a field.
+  - [ ] Challenge 3: Implement a feature that removes can remove an entry in a hash table. 
+  - [ ] Challenge 4: Optimize the implementation of the field instances.
 - [ ] Chapter 15
 - [ ] Chapter 16
 - [ ] Chapter 17
