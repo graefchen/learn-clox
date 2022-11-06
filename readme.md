@@ -15,8 +15,8 @@
 - [x] [Chapter11](https://craftinginterpreters.com/calls-and-functions.html)
 - [x] [Chapter12](https://craftinginterpreters.com/closures.html)
 - [x] [Chapter13](https://craftinginterpreters.com/garbage-collection.html)
-- [ ] [Chapter14](https://craftinginterpreters.com/classes-and-instances.html)
-- [ ] [Chapter15](https://craftinginterpreters.com/methods-and-initializers.html)
+- [x] [Chapter14](https://craftinginterpreters.com/classes-and-instances.html)
+- [x] [Chapter15](https://craftinginterpreters.com/methods-and-initializers.html)
 - [ ] [Chapter16](https://craftinginterpreters.com/superclasses.html)
 - [ ] [Chapter17](https://craftinginterpreters.com/optimization.html)
 
@@ -82,5 +82,8 @@
   - [ ] Challenge 3: Implement a feature that removes can remove an entry in a hash table. 
   - [ ] Challenge 4: Optimize the implementation of the field instances.
 - [ ] Chapter 15
+  - [ ] Challenge 1: Write a faster `init()` implementation.
+  - [ ] Challenge 2: How do advanced language implementations optimize callsites
+  - [ ] Challenge 3: Was it the correct choice to implement the same syntax for calling fields and methods.
 - [ ] Chapter 16
 - [ ] Chapter 17

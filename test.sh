@@ -29,7 +29,7 @@ check() {
 	THIS_VALUE=0
 	if [ $RETURN_VALUE  != $THIS_VALUE ]; then
 		echo -e "Test $YELLOW$1 $RESET was ${RED}unsuccesfull${RESET}."
-		# testing $1
+		testing $1
 	fi
 	if [ $RETURN_VALUE  == $THIS_VALUE ]; then
 		echo -e "Test $YELLOW$1 $RESET was ${GREEN}successfull${RESET}."
@@ -40,7 +40,7 @@ check() {
 INPUT=$1
 
 TESTS=(
-	"local_variables" "if" "while" "for" "fun0" "fun1" "fun2" "fun3" "fun4" "closure1" "closure2" "closure3" "closure4" "closure5" "closure6" "closure7" "closure8" "closure9" "closure10" "closure11" "closure12" "closure13" "gc1" "gc2" "gc3" "class1" "class2"
+	"local_variables" "if" "while" "for" "fun0" "fun1" "fun2" "fun3" "fun4" "closure1" "closure2" "closure3" "closure4" "closure5" "closure6" "closure7" "closure8" "closure9" "closure10" "closure11" "closure12" "closure13" "gc1" "gc2" "gc3" "class1" "class2" "class3" "class4" "class5" "class6" "class7" "class8" "class9"
 	)
 
 echo "Start running the tests..."
