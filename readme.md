@@ -1,3 +1,7 @@
+# BECAUSE OF A BUG I WILL HALT PROGRAMMING ON THIS AND START ANEW
+
+
+
 # My interpretation of the clox language
 
 
@@ -17,7 +21,7 @@
 - [x] [Chapter13](https://craftinginterpreters.com/garbage-collection.html)
 - [x] [Chapter14](https://craftinginterpreters.com/classes-and-instances.html)
 - [x] [Chapter15](https://craftinginterpreters.com/methods-and-initializers.html)
-- [ ] [Chapter16](https://craftinginterpreters.com/superclasses.html)
+- [x] [Chapter16](https://craftinginterpreters.com/superclasses.html)
 - [ ] [Chapter17](https://craftinginterpreters.com/optimization.html)
 
 ## Finished Challenges:
@@ -86,4 +90,7 @@
   - [ ] Challenge 2: How do advanced language implementations optimize callsites
   - [ ] Challenge 3: Was it the correct choice to implement the same syntax for calling fields and methods.
 - [ ] Chapter 16
+  - [ ] Challenge 1: ???
+  - [ ] Challenge 2: ???
+  - [ ] Challenge 3: ???
 - [ ] Chapter 17
