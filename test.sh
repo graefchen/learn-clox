@@ -15,9 +15,9 @@ RESET='\033[0m'
 # input $1 is the name of the test and the file
 testing() {
 	echo "--------------------------------------------------------------------------------"
-	echo -e "Running the $YELLOW$1 $RESET test..."
+	echo -e "Running the $YELLOW$1$RESET test..."
 	echo "--------------------------------------------------------------------------------"
-	./build/clox.exe ./clox/$1.clox
+	./build/clox.exe ./tests/$1
 	RETURN_VALUE=$?
 	echo "--------------------------------------------------------------------------------"
 }
@@ -28,33 +28,25 @@ check() {
 	testing $1 > /dev/null
 	THIS_VALUE=0
 	if [ $RETURN_VALUE  != $THIS_VALUE ]; then
-		echo -e "Test $YELLOW$1 $RESET was ${RED}unsuccesfull${RESET}."
+		echo -e "Test $YELLOW$1$RESET was executed ${RED}unsuccesfull${RESET}."
 		testing $1
 	fi
 	if [ $RETURN_VALUE  == $THIS_VALUE ]; then
-		echo -e "Test $YELLOW$1 $RESET was ${GREEN}successfull${RESET}."
+		echo -e "Test $YELLOW$1$RESET was executed ${GREEN}successfull${RESET}."
 	fi
 }
 
-# the input for the file at position 1
-INPUT=$1
+# getting the files in tests and put them into an array
+TESTS=($(ls tests))
 
-TESTS=(
-	"local_variables" "if" "while" "for" "fun0" "fun1" "fun2" "fun3" "fun4" "closure1" "closure2" "closure3" "closure4" "closure5" "closure6" "closure7" "closure8" "closure9" "closure10" "closure11" "closure12" "closure13" "gc1" "gc2" "gc3" "class1" "class2" "class3" "class4" "class5" "class6" "class7" "class8" "class9"
-	)
+# echo "Trying to find tests..."
+# echo -e "Following test were found: $YELLOW${TESTS[@]}$RESET"
 
 echo "Start running the tests..."
 
-if [ "$INPUT" == "full" ]; then 
-	for i in "${TESTS[@]}"
-	do
-		testing $i
-	done
-else
-	for i in "${TESTS[@]}"
-	do
-		check $i
-	done
-fi
+for i in "${TESTS[@]}"
+do
+	check $i
+done
 
 echo "Finished running the tests"
