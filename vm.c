@@ -1,7 +1,4 @@
 #include <stdarg.h>
-#include <stdbool.h>
-#include <stddef.h>
-#include <stdint.h>
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
@@ -44,6 +41,7 @@ static void runtimeError(const char* format, ...) {
 			fprintf(stderr, "%s()\n", function->name->chars);
 		}
 	}
+
 	resetStack();
 }
 
@@ -402,7 +400,6 @@ static InterpretResult run() {
 			case OP_LESS:			BINARY_OP(BOOL_VAL, <); break;
 			case OP_ADD: {
 				if (IS_STRING(peek(0)) && IS_STRING(peek(1))) {
-					printf("Before concatenate()\n");
 					concatenate();
 				} else if (IS_NUMBER(peek(0)) && IS_NUMBER(peek(1))) {
 					double b = AS_NUMBER(pop());
@@ -426,7 +423,7 @@ static InterpretResult run() {
 				if (!IS_NUMBER(peek(0))) {
 					runtimeError("Operand must be a number.");
 					return INTERPRET_RUNTIME_ERROR;
-					}
+				}
 				push(NUMBER_VAL(-AS_NUMBER(pop())));
 				break;
 			case OP_PRINT: {
