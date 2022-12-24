@@ -22,7 +22,7 @@
 - [x] [Chapter14](https://craftinginterpreters.com/classes-and-instances.html)
 - [x] [Chapter15](https://craftinginterpreters.com/methods-and-initializers.html)
 - [x] [Chapter16](https://craftinginterpreters.com/superclasses.html)
-- [ ] [Chapter17](https://craftinginterpreters.com/optimization.html)
+- [x] [Chapter17](https://craftinginterpreters.com/optimization.html)
 
 ## Finished Challenges:
 
@@ -94,3 +94,6 @@
   - [ ] Challenge 2: ???
   - [ ] Challenge 3: ???
 - [ ] Chapter 17
+  - [ ] Challenge 1: ???
+  - [ ] Challenge 2: ???
+  - [ ] Challenge 3: ???
