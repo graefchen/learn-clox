@@ -1,8 +1,4 @@
-# BECAUSE OF A BUG I WILL HALT PROGRAMMING ON THIS AND START ANEW
-
-
-
-# My interpretation of the clox language
+# My coding after the book [craftinginterpreters](https://craftinginterpreters.com/) of the c version of the lox language
 
 
 ## Finished Chapters:
