@@ -86,9 +86,9 @@
   - [ ] Challenge 2: How do advanced language implementations optimize callsites
   - [ ] Challenge 3: Was it the correct choice to implement the same syntax for calling fields and methods.
 - [ ] Chapter 16
-  - [ ] Challenge 1: ???
-  - [ ] Challenge 2: ???
-  - [ ] Challenge 3: ???
+  - [ ] Challenge 1: How would you implement the problem that 2 classes that inherit out if 1 superclass would step on euch other's field.
+  - [ ] Challenge 2: How do other languages support that classes are getting out of sync with its superclass.
+  - [ ] Challenge 3: Solve the BETA languages approach to methode overriding.
 - [ ] Chapter 17
   - [ ] Challenge 1: ???
   - [ ] Challenge 2: ???
